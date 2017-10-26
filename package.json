@@ -1,0 +1,36 @@
+{
+  "name": "postcss-downgrade-variables",
+  "version": "0.0.1-alpha.1",
+  "description": "PostCSS plugin for downgrage css variables",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "variables",
+    "downgrade",
+    "polyfill",
+    "css3"
+  ],
+  "author": "Winte256 <m.krutihin@gmail.com>",
+  "license": "MIT",
+  "repository": "winte256/postcss-downgrade-variables",
+  "bugs": {
+    "url": "https://github.com/winte256/postcss-downgrade-variables/issues"
+  },
+  "homepage": "https://github.com/winte256/postcss-downgrade-variables",
+  "dependencies": {
+    "postcss": "^6.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-postcss": "^2.0.2",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  }
+}

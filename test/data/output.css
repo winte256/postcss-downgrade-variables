@@ -1,0 +1,10 @@
+:root {
+  --primary-background: #fff;
+  --green-color: #0f0;
+}
+.class {
+  border-color: #fff;
+  border-color: var(--primary-background);
+  background-image: linear-gradient(to top, #0f0, #fff);
+  background-image: linear-gradient(to top, var(--green-color), var(--primary-background));
+}
