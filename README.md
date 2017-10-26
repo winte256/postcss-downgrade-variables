@@ -1,6 +1,6 @@
 # PostCSS Downgrade Variables [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin for downgrage css variables.
+[PostCSS] plugin for downgrade css variables.
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/winte256/postcss-downgrade-variables.svg
