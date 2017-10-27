@@ -13,14 +13,7 @@ module.exports = postcss.plugin('postcss-downgrade-variables', (options = {}) =>
 
   css.walkDecls((decl) => {
     if (/var\(--/.test(decl.value)) {
-      decl.before({
-        raws: decl.raws,
-        source: decl.source,
-        type: 'decl',
-        prop: decl.prop,
-        important: decl.important || false,
-        value: replaceToDefaultColor(decl.value, variablesColors),
-      });
+      decl.cloneBefore({ value: replaceToDefaultColor(decl.value, variablesColors) });
     }
   });
 });
