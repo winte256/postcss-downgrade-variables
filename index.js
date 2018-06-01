@@ -5,7 +5,7 @@ const replaceToDefaultColor = (css, colors = {}) =>
 const variablesColors = {};
 
 module.exports = postcss.plugin('postcss-downgrade-variables', () => (css) => {
-  css.walkRules(':root', (rule) => {
+  css.walkRules((rule) => {
     rule.walkDecls((decl) => {
       variablesColors[decl.prop] = decl.value;
     });
