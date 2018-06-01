@@ -19,16 +19,23 @@
   },
   "homepage": "https://github.com/winte256/postcss-downgrade-variables",
   "dependencies": {
-    "postcss": "^6.0.1"
+    "postcss": "^6.0.22"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint": "^4.9.0",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-postcss": "^2.0.2",
-    "eslint-plugin-html": "^3.2.2",
-    "eslint-plugin-import": "^2.8.0",
-    "jest": "^21.2.1"
+    "eslint-config-logux": "^23.0.0",
+    "eslint-config-postcss": "^3.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-html": "^4.0.3",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.15.1",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.1.0"
   },
   "scripts": {
     "test": "jest && eslint *.js"
