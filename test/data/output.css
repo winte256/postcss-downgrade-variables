@@ -14,3 +14,8 @@
   background-image: linear-gradient(to top, #0f0, #fff);
   background-image: linear-gradient(to top, var(--green-color), var(--primary-background));
 }
+.varInClass {
+  --some-color: #ff0000;
+  color: #ff0000;
+  color: var(--some-color);
+}
